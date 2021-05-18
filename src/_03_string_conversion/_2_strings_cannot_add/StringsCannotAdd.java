@@ -5,11 +5,11 @@ import javax.swing.JOptionPane;
 public class StringsCannotAdd {
 
 		// 1) Make a main method that includes all the steps below…. 
-		
+	public static void main(String[] args) {
 			// 2) Ask the user to enter number 4 and hold it in the variable fourAsString 
-			
+			String fourAsString = JOptionPane.showInputDialog(null,"Enter the number four.");
 			// 3) Ask the user to enter number 6 and hold it in the variable sixAsString 
-			
+			String sixAsString = JOptionPane.showInputDialog(null,"Enter the number six.");
 			// 4) Print the addition of fourAsString and sixAsString using JOptionPane 
 			
 			// Did you notice 46 instead of 4 + 6 = 10?
@@ -34,4 +34,4 @@ public class StringsCannotAdd {
 			// 10) Print the addition of fourAsInt, sixAsInt, and fiveAsInt using JOptionPane 
 			
 			// Is your value now 15 instead of 465?
-}
+}}
